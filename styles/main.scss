@@ -1,0 +1,21 @@
+// ui styles variables
+
+$borders: gray;
+$hoverButtons: rgba(202, 200, 200, 0.786);
+$fontSize: small;
+
+// importing style sheets
+@import "footer";
+@import "page1";
+@import "page2";
+@import "header";
+// general settings 
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 3fr .5fr;
+}

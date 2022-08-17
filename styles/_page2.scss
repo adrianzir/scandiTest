@@ -1,0 +1,63 @@
+.form-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+    padding: 2rem 3rem;
+    height: auto;
+    min-height: 100vh;
+    #product_form{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        width: fit-content;
+        .inputs{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-transform: uppercase;
+            gap: 1rem;
+            min-width: 280px;
+            max-width: fit-content;
+            height: 180px;
+            align-items: baseline;
+            input{
+                width: 60%;
+                margin-left: auto; 
+                border: 1px solid $borders;
+            }
+        }
+        .switcher_div{
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            #switcher_label {
+                    text-transform: uppercase;
+                    margin-top: 1rem;
+                }
+            #productType{
+                margin-left: auto;
+                option {
+                        text-transform: capitalize;
+                    }
+            }
+        }
+        
+    }
+        
+}
+#attributes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 310px;
+    max-width: fit-content;
+    height: 200px; 
+    align-items: baseline;
+    line-height: 1;
+    margin-top: 1rem;
+    padding: 1rem 0;
+}
+

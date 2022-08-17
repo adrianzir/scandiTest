@@ -1,0 +1,31 @@
+.main-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 80vw;
+    margin: 0 5vw;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid $borders;
+    .main-title{
+        font-weight: 400;
+    }
+    .btns-container{
+        width: fit-content;
+        padding: 0.5rem;
+        height: auto;
+        .btns{
+            padding: 0.6rem;
+            border: 1px solid $borders;
+            background-color: transparent;
+            color: $borders;
+            margin-left: 1rem;
+            box-shadow: 5px 4px 5px  rgba(128, 128, 128);
+            &:hover{
+                background-color:$hoverButtons;
+                cursor: pointer;
+            }
+        }
+    }
+}

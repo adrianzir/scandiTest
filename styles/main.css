@@ -1,0 +1,157 @@
+.footer {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0 5vw;
+  padding: 2rem;
+  border-top: 1px solid gray;
+}
+.footer p {
+  text-transform: uppercase;
+  cursor: text;
+}
+
+.products-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100vw;
+  gap: 2rem;
+}
+.products-section .cards {
+  border: 1px solid gray;
+  padding: 1rem;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  gap: 1rem;
+}
+.products-section .cards #delete-checkbox {
+  margin-right: auto;
+}
+.products-section .cards .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 0;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+  padding: 2rem 3rem;
+  height: auto;
+  min-height: 100vh;
+}
+.form-section #product_form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.form-section #product_form .inputs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  gap: 1rem;
+  min-width: 280px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  height: 180px;
+  align-items: baseline;
+}
+.form-section #product_form .inputs input {
+  width: 60%;
+  margin-left: auto;
+  border: 1px solid gray;
+}
+.form-section #product_form .switcher_div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.form-section #product_form .switcher_div #switcher_label {
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.form-section #product_form .switcher_div #productType {
+  margin-left: auto;
+}
+.form-section #product_form .switcher_div #productType option {
+  text-transform: capitalize;
+}
+
+#attributes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 310px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  height: 200px;
+  align-items: baseline;
+  line-height: 1;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 80vw;
+  margin: 0 5vw;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid gray;
+}
+.main-container .main-title {
+  font-weight: 400;
+}
+.main-container .btns-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+  height: auto;
+}
+.main-container .btns-container .btns {
+  padding: 0.6rem;
+  border: 1px solid gray;
+  background-color: transparent;
+  color: gray;
+  margin-left: 1rem;
+  box-shadow: 5px 4px 5px rgb(128, 128, 128);
+}
+.main-container .btns-container .btns:hover {
+  background-color: rgba(202, 200, 200, 0.786);
+  cursor: pointer;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 3fr 0.5fr;
+}/*# sourceMappingURL=main.css.map */

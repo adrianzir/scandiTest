@@ -1,0 +1,15 @@
+.footer{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 5vw;
+    padding: 2rem;
+    border-top: 1px solid gray;
+    p{
+        text-transform: uppercase;
+        cursor: text;
+    }
+}
